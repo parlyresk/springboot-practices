@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>com.poscodx</groupId>
-	<artifactId>springboot-helloworld</artifactId>
+	<artifactId>springboot-myapplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
