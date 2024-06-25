@@ -26,8 +26,13 @@ public class MyWebApplication {
 		
 		
 		 @GetMapping("/hello2")
-	        public String hello2() {
+	     public String hello2() {
 	            return "hello2"; 
+	        }
+		 
+		 @GetMapping("/hello3")
+	     public String hello3() {
+	            return "th/hello3"; 
 	        }
 	}
 	
