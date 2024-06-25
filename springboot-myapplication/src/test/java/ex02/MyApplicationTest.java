@@ -1,4 +1,4 @@
-package ex01;
+package ex02;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
@@ -9,13 +9,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 /*
  * Spring Boot Test Integration
  * 
- * Error
- * MyApplication 파일에 Configuration이 아니라 SpringBootConfiguration 어노테이션이 있어야함
  * 
  * */
 
 @SpringBootTest
-public class MyApplicationTest02 {
+public class MyApplicationTest {
 	
 	@Autowired
 	private MyComponent myComponent;
