@@ -19,5 +19,9 @@ public class MyApplication {
 			MyComponent myComponent = ac.getBean(MyComponent.class);
 			System.out.println(myComponent);
 		}
+		
+		
 	}
+	
+	
 }
